@@ -1,0 +1,139 @@
+{
+  "titleNameMap": {
+    "educationList": "教育背景",
+    "workExpList": "工作经历",
+    "projectList": "项目经历",
+    "skillList": "个人技能",
+    "awardList": "更多信息",
+    "workList": "个人作品",
+    "aboutme": "自我介绍"
+  },
+  "avatar": {
+    "src": "https://i.postimg.cc/XJKKBnLy/people.jpg",
+    "hidden": true
+  },
+  "profile": {
+    "name": "陶云亮",
+    "email": "yunltao@outlook.com",
+    "mobile": "17750258532",
+    "github": "",
+    "zhihu": "",
+    "age": "26",
+    "workPlace": "不限/远程（当前上海）",
+    "workExpYear": "四-五年",
+    "positionTitle": "全栈工程师（主前端，辅后端Node/Python/Go）"
+  },
+  "educationList": [
+    {
+      "edu_time": ["2017.09.01", "2021.06.30"],
+      "school": "福州大学 至诚学院",
+      "major": "计算机科学与技术(主)",
+      "minor": "金融工程(辅)",
+      "academic_degree": "本科"
+    }
+  ],
+  "awardList": [
+    { "award_info": "英语 CET6", "award_time": "2018", "dataIndex": 0 },
+    { "award_info": "证券从业资格证", "award_time": "2020.06", "dataIndex": 1 }
+  ],
+  "workExpList": [
+    {
+      "work_time": ["2023.03", "2025.10"],
+      "company_name": "FinPoints（新加坡Doo Group金融科技集团R&D，股票/期货）",
+      "department_name": "Web Developer",
+      "work_desc": "1. 主要负责ToC端CRM Client/Ib/H5项目(开户交易平台)需求业务开发(NodeJs/React/Next)，部分技术改造工作。\n2. 参与积分商城项目开发和C端项目重构版本升级。\n3. 梳理技术文档，参与技术评审，主动推进项目进程，优化工作协作流程。",
+      "dataIndex": 0
+    },
+    {
+      "work_time": ["2022.01", "2023.02"],
+      "company_name": "上海唯偲科技有限公司（元宇宙创业公司，线上虚拟空间）",
+      "department_name": "前端工程师",
+      "work_desc": "1. 参与需求宣讲，讨论，根据产品UI/UX稿完成前端开发。\n2. 基础、业务组件的设计，主动担起需求小组长的任务，和测试，产品沟通协调需求推进。\n3. 参与PC端云现场前端重构（Vue3），包括路由,聊天，场景互动等模块，以及负责部分地图编辑器需求。参与部分后端开发(缺人)。",
+      "dataIndex": 1
+    },
+    {
+      "work_time": ["2020.12", "2022.01"],
+      "company_name": "Merkle美库尔上海（500强咨询行业公司Dentsu旗下）",
+      "department_name": "Tech Analytics",
+      "work_desc": "1. 根据需求完成前端（Vue2）Analytics Platform项目，封装业务组件。\n2.使用Django开发后台管理系统，同时对抖音，虎扑等平台数据进行爬取和存储，方便用户筛选数据。\n3.对Azkaban调度器进行改造，适应相关业务需求。\n4.使用Echarts,Heatmap等图库开发，进行数据可视化展示。",
+      "dataIndex": 2
+    }
+  ],
+  "skillList": [
+    {
+      "skill_name": "HTML，CSS/SCSS，TypeScript / JavaScript",
+      "skill_desc": "熟连使用HTML/HTML5，CSS/SCSS，TypeScript / JavaScript,熟悉ES6语法及其常用新特性",
+      "skill_level": 95,
+      "dataIndex": 0
+    },
+    {
+      "skill_name": "React/Vue2，3/Uniapp等前端框架，Vant/Element等UI框架和二开",
+      "skill_level": 95,
+      "dataIndex": 1,
+      "skill_desc": "熟悉使用React、Vue2/3前端框架，对其底层特性、性能优化有一定理解,可从0到1开发，技术选型"
+    },
+    {
+      "skill_name": "NodeJs(Koa/Express),NextJs等",
+      "skill_desc": "熟悉NodeJs服务开发，写过中间件，比如封装请求的日志，设置跨域，前端通讯加密，异常状态码页面处理等，熟悉NextJs,SSR/SSG渲染方式等，独立参与过客户端开发（Electron）",
+      "skill_level": 95,
+      "dataIndex": 2
+    },
+    {
+      "skill_name": "前端工程化，Webpack/Vite等打包工具，微前端",
+      "skill_level": 95,
+      "dataIndex": 3,
+      "skill_desc": "熟悉使用Webpack，Vite等打包工具，包括性能优化等。了解Monorepo单体仓库管理"
+    },
+    {
+      "skill_name": "Python(django、flask、Scrapy), Golang(Gin Web)等后端开发",
+      "skill_desc": "熟悉Python后端开发框架，会使用Golang开发。业余做过量化quant因子挖掘，flask, Gin 框架等项目开发",
+      "skill_level": 90,
+      "dataIndex": 4
+    },
+    {
+      "skill_name": "Mysql，Redis，MongoDB等数据库，熟悉Elasticsearch等搜索引擎",
+      "skill_level": 85,
+      "skill_desc": "熟悉Mysql、Redis、MongoDB等数据库，了解其数据结构、特性等,了解 Docker，K8s等容器运维技术， CI/CD 等",
+      "dataIndex": 5
+    }
+  ],
+  "projectList": [
+    {
+      "project_name": "Doo Prime Clint/Ib/H5端开户交易平台(React/TS/Koa/Next)",
+      "project_role": "NodeJs全栈开发",
+      "project_time": "2023.05 - 至今",
+      "project_desc": "基于云端网络的交易系统，提供网页版和移动端，可以随时随地在任意的设备上开始交易，及时把握投资机遇。支持全球最热门的交易平台 MT4 ，以及新一代的多元资产交易平台 MT5，具有高度通用性。",
+      "project_content": "1.对Client/IB项目进行打包优化，首屏加载速度优化。配置Nginx对静态文件做动静分离，由原来500并发+5pods加载时间6s降至2s。\n2.对项目进行埋点，报错日志封装，隐私数据加密，交易转账核心接口使用IoRedis安全校验。\n3.对常用组件比如表单、输入框基于Antd封装改造。\n4.需求开发，比如接入JWT token、最优域名节点更新、出入金额计算，kyc模块对接等等。\n5.优化项目Docker CI/CD，便捷持续部署项目。主导接入Sentry对项目异常进行监控。\n6.参与部分模块重构工作，比如负责资金DDD重构。\n7.项目NodeJs为全栈，项目采用微服务架构，接入Nacos。中间件接口安全加密校验、日志等，参与部分模块后端开发。\n8.共同实施计划开发方案，使用Next/React对旧项目前端SSR进行重构（资金）和优化渲染加载",
+      "dataIndex": 2
+    },
+    {
+      "project_name": "Vland云现场PC端、编辑器(Vue2/3)",
+      "project_role": "核心开发者",
+      "project_time": "2022.01 - 2022.02",
+      "project_desc": "此项目是公司主打产品，用户通过云现场链接进入云现场，或者用户通过首页进入云现场， 在进入云现场之前，需要有管理员创建并编辑好云现场，设置人员权限，白名单，地图密码等，用户进入云 现场后，用户可以活动，聊天，音视频，碰撞，等进行社交。",
+      "project_content": "1.参与需求迭代开发（敏捷），封装常用组件以及常用函数，规范文档，统一维护。\n2.重构原代码设计，修改组件之间结构达到模块化管理效果,并替换 Ts+Vue3.0 开发，同时推进 Eslint。 Commitlint 规范。\n3.编辑器：采用ES6模块化开发，使用Fabric画布（基于Canvas工具的绘图框架）绘制图形工具构建云现场。\n4.编辑器参与了文件上传，物品，特效，地板等列表展示，可交互物属性设置，内存测算，撤销，重做等功能，也做了相关优化，比如模块化解耦;视图更少的渲染;分批处理计算，利用requestIdleCallback回调做空闲执行等。\n5.进行单页面加载，Webpack打包的优化，通过添加缓存加载器，优化文件匹配路径等方法，提升项目运行速度（2min -> 30s）和效率；",
+      "dataIndex": 0
+    },
+    {
+      "project_name": "Vland云现场移动端（Uniapp/Gin）",
+      "project_role": "全栈开发(主前端，辅Go)",
+      "project_time": "2022.05 - 至今",
+      "project_desc": "分微信登陆和手机号登陆，登陆后选择对应的云现场进入场景， 进入场景前有相关引到和音视频权限的授权，用户授权完毕后进入元宇宙场景进行相应社交活动。",
+      "project_content": "1.项目主要使用Uniapp+ES6+Sass+Vant+Vite等相关技术栈开发，且多端兼容适应多个平台。\n2.参与首页，登录，聊天，云现场音视频订阅等模块的开发，基于Vant移动端组件库封装了基础、业务组件，提升后续需求开发效率。\n3.后端技术上主要使用 Gin Web 框架完成后端 API 接口开发，主要需求有付费模块，活动场景内换装，聊天模块，敏感词检测，活动数据看板等；\n4.使用 gin-vue-admin 开源平台进行管理后台的开发",
+      "dataIndex": 0
+    },
+    {
+      "project_name": "Apache DolphinScheduler 开源(基于Vue用户资源授权更换穿梭框)",
+      "project_role": "代码贡献者",
+      "project_time": "2021.07 - 2021.09 / 2022.02 - 2022.03",
+      "project_desc": "此项目为 Apache Dolphinscheduler(DS)海豚调度开源活动（Summmer Star）。此项目是用户资源授权页一功能模 块，需要将原下拉框资源选择修改穿梭框树形结构数据选择资源。",
+      "project_content": "1.需熟悉项目前人组件，需基于前人开发组件修改适应业务。\n2.对ElementUI进行封装适应任务调度业务需求，提PR进行Code Review。",
+      "dataIndex": 1
+    }
+  ],
+  "workList": [],
+  "aboutme": {
+    "aboutme_desc": "🌱 Things have a way of working themselves out. \n😈 能力项：我是一名具有良好团队合作沟通能力、执行力、工作同步和总结能力、以及自我驱动的软件工程师。在NodeJs/Python前后端开发、爬虫、分析脚本等方面有着丰富的经验，同时在Uniapp、React和Vue等前端框架上也有着深入的实践经验。我业余时间也善于思考并尝试一些新的技术或实现方案。\n    "
+  },
+  "theme": { "color": "#2f5785", "tagColor": "#8bc34a" }
+}

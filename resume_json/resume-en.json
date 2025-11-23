@@ -1,0 +1,124 @@
+{
+  "titleNameMap": {
+    "educationList": "Education",
+    "workExpList": "Work Experience",
+    "projectList": "Projects",
+    "skillList": "Skills",
+    "awardList": "Certifications & Achievements",
+    "workList": "Portfolio",
+    "aboutme": "About Me"
+  },
+  "avatar": {
+    "src": "https://i.postimg.cc/XJKKBnLy/people.jpg",
+    "hidden": false
+  },
+  "profile": {
+    "name": "Terry Tao",
+    "email": "yunltao@outlook.com",
+    "mobile": "+86 17750258532",
+    "github": "",
+    "zhihu": "",
+    "workExpYear": "4 years",
+    "workPlace": "Shanghai / Remote / Other",
+    "positionTitle": "Frontend / Node.js / Python Engineer"
+  },
+  "educationList": [
+    {
+      "edu_time": ["2017.09.01", "2021.06.30"],
+      "school": "Fuzhou University, Zhicheng College",
+      "major": "Computer Science and Technology (Major)",
+      "minor": "Financial Engineering (Minor)",
+      "academic_degree": "Bachelor's Degree"
+    }
+  ],
+  "awardList": [
+    { "award_info": "CET-6 English Proficiency", "award_time": "2018", "dataIndex": 0 },
+    { "award_info": "Securities Qualification Certificate", "award_time": "2020.06", "dataIndex": 1 }
+  ],
+  "workExpList": [
+    {
+      "work_time": ["2023.03", "Present"],
+      "company_name": "Finpoints (Doo Group Financial Technology R&D, Stocks/Futures/Forex)",
+      "department_name": "Software Engineer",
+      "work_desc": "1. Lead development for the CRM Client/Ib/H5 platform (account opening & trading), focusing on feature implementation and technical optimization (Node.js, React).\n2. Contributed to the development of a points-based rewards marketplace and customized TradingView tools.\n3. Documented technical processes, participated in technical reviews, proactively drove project progress, and optimized collaboration workflows.",
+      "dataIndex": 0
+    },
+    {
+      "work_time": ["2022.01", "2023.02"],
+      "company_name": "Weisi Technology (Metaverse Startup, Virtual Spaces)",
+      "department_name": "Frontend Engineer",
+      "work_desc": "1. Collaborated with UI/UX designers and product teams to develop frontend interfaces.\n2. Designed and developed core business components, taking ownership of task coordination between engineering, QA, and product teams.\n3. Led frontend refactoring for the cloud-based virtual event platform, focusing on routing, chat features, and interactive scene modules, as well as contributing to the map editor tool.",
+      "dataIndex": 1
+    },
+    {
+      "work_time": ["2020.12", "2022.01"],
+      "company_name": "Merkle Shanghai (A Dentsu Subsidiary, Fortune 500 Consulting)",
+      "department_name": "Tech Analytics",
+      "work_desc": "1. Developed frontend interfaces for the Analytics Platform, implementing reusable UI components.\n2. Built a Django-based admin system and developed web scrapers to collect and store data from platforms like Douyin and Hupu for analysis.\n3. Customized the Azkaban scheduler to fit business requirements.\n4. Created data visualization tools using ECharts and Heatmap libraries.",
+      "dataIndex": 2
+    }
+  ],
+  "skillList": [
+    {
+      "skill_name": "HTML, CSS/SCSS, TypeScript / JavaScript",
+      "skill_desc": "Proficient in HTML/HTML5, CSS/SCSS, TypeScript/JavaScript, with a strong grasp of ES6+ features.",
+      "skill_level": 95,
+      "dataIndex": 0
+    },
+    {
+      "skill_name": "React/Vue2 & Vue3, Hooks",
+      "skill_desc": "Experienced in React and Vue2/3 frameworks, with a solid understanding of their internals. Familiar with Uniapp development.",
+      "skill_level": 95,
+      "dataIndex": 1
+    },
+    {
+      "skill_name": "Node.js (Koa, Express)",
+      "skill_desc": "Experienced in Node.js backend development, proficient with Koa and Express frameworks, and middleware development (e.g., request logging, CORS, encryption, error handling). Also familiar with Next.js.",
+      "skill_level": 95,
+      "dataIndex": 2
+    },
+    {
+      "skill_name": "Python (Django, Flask, Scrapy)",
+      "skill_desc": "Experienced in Python development, backend services, and web scraping using Scrapy. Familiar with Pandas for data analysis and has worked on quantitative trading research.",
+      "skill_level": 90,
+      "dataIndex": 5
+    },
+    {
+      "skill_name": "MySQL, Redis, MongoDB",
+      "skill_desc": "Proficient in MySQL database operations, with experience in Redis and MongoDB. Knowledgeable in data structures and optimization strategies.",
+      "skill_level": 85,
+      "dataIndex": 6
+    }
+  ],
+  "projectList": [
+    {
+      "project_name": "Doo Prime Client/Ib/H5 Trading Platform (React/TS/Koa)",
+      "project_role": "Core Developer",
+      "project_time": "2023.05 - Present",
+      "project_desc": "A cloud-based trading system supporting both web and mobile platforms, enabling seamless trading across multiple devices. Integrates MT4 and MT5, offering robust market access.",
+      "project_content": "1. Optimized application bundling and Nginx static file distribution, reducing load time from 6s to 2s.\n2. Implemented logging, error tracking (Sentry), encryption, and security enhancements for critical transactions using IoRedis.\n3. Refactored financial transaction modules (deposit, withdrawal, transfer) following DDD principles.\n4. Improved CI/CD processes with Docker, ensuring efficient deployments.\n5. Developed reusable UI components for Ant Design and optimized form interactions.",
+      "dataIndex": 0
+    },
+    {
+      "project_name": "Vland Cloud Scene PC & Editor (Vue2/3/Uniapp)",
+      "project_role": "Core Developer",
+      "project_time": "2022.01 - 2022.02",
+      "project_desc": "Main product of the company, where users enter cloud scenes for virtual social activities after setup by administrators.",
+      "project_content": "1. Iterative agile development, encapsulating reusable components, and maintaining documentation.\n2. Refactored original code to achieve modular management and migrated to TypeScript + Vue3.0 while enforcing Eslint and Commitlint.\n3. Built an editor using ES6 modularization and Fabric.js for canvas-based cloud scene construction.\n4. Developed functionalities including file uploads, object effects, interactive properties, memory estimation, undo/redo, and performance optimizations like modularization, reduced rendering, and requestIdleCallback usage.\n5. Optimized Webpack build process, reducing load time from 2 minutes to 30 seconds.\n6. Developed using Uniapp + ES6 + Sass + Vant + Vite with multi-platform compatibility.\n7.Built reusable components based on Vant for efficient development.",
+      "dataIndex": 1
+    },
+    {
+      "project_name": "Apache DolphinScheduler Open Source Contribution (Vue-based Resource Authorization UI Enhancement)",
+      "project_role": "Contributor",
+      "project_time": "2021.07 - 2021.09 / 2022.02 - 2022.03",
+      "project_desc": "Contributed to Apache DolphinScheduler (DS) as part of the Summer Star open-source initiative. Enhanced the resource authorization page by replacing the dropdown selection with a tree-structured transfer box.",
+      "project_content": "1. Studied existing components and adapted them to meet new business needs.\n2. Encapsulated Element-UI components to align with task scheduling requirements and submitted PRs for code review.",
+      "dataIndex": 2
+    }
+  ],
+  "workList": [],
+  "aboutme": {
+    "aboutme_desc": "🌱 Things have a way of working themselves out.\n😈 Skills: A proactive frontend engineer with strong collaboration, execution, and problem-solving abilities. Experienced in Node.js/Python for full-stack development, web scraping, and data analysis. Passionate about exploring new technologies and optimizing development processes."
+  },
+  "theme": { "color": "#2f5785", "tagColor": "#8bc34a" }
+}

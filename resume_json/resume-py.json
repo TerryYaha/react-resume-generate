@@ -1,0 +1,129 @@
+{
+  "titleNameMap": {
+    "educationList": "教育背景",
+    "workExpList": "工作经历",
+    "projectList": "项目经历",
+    "skillList": "个人技能",
+    "awardList": "更多信息",
+    "workList": "个人作品",
+    "aboutme": "自我介绍"
+  },
+  "avatar": {
+    "src": "https://i.postimg.cc/XJKKBnLy/people.jpg",
+    "hidden": false
+  },
+  "profile": {
+    "name": "陶云亮",
+    "email": "yunltao@outlook.com",
+    "mobile": "17750258532",
+    "zhihu": "",
+    "workExpYear": "两年(含半年实习)",
+    "workPlace": "上海（长三角）",
+    "positionTitle": "python/Go工程师"
+  },
+  "educationList": [
+    {
+      "edu_time": ["2017.09.01", "2021.06.30"],
+      "school": "福州大学 至诚学院",
+      "major": "计算机科学与技术(主)   金融工程(辅)",
+      "academic_degree": "本科"
+    }
+  ],
+  "awardList": [
+    { "award_info": "英语 CET6", "award_time": "2018", "dataIndex": 0 },
+    { "award_info": "证券从业资格证", "award_time": "2020.06", "dataIndex": 1 }
+  ],
+  "workExpList": [
+    {
+      "work_time": ["2022.01", "2023.02"],
+      "company_name": "上海唯偲科技有限公司",
+      "department_name": "研发前端组",
+      "work_desc": "1. 参与需求宣讲，讨论，根据产品UI/UX稿完成，根据需求，使用python+vue3前后端开发;2.可视化报表需求开发(用户访问情况，活跃地区分布等)",
+      "dataIndex": 0
+    },
+    {
+      "work_time": ["2020.12", "2022.01"],
+      "company_name": "Merkle美库尔上海",
+      "department_name": "Analytics Team",
+      "work_desc": "Tech-analytics    \n1. 根据需求完成数据分析平台项目，封装前端业务组件\n2.使用Django开发后台管理系统，同时对抖音，虎扑等平台数据进行爬取和存储，方便用户筛选数据;\n3.对Azkaban调度器进行改造，适应相关业务需求;\n4.使用Echarts,Heatmap等图库开发，进行数据可视化展示",
+      "dataIndex": 1
+    }
+  ],
+  "skillList": [
+    {
+      "skill_name": "熟悉python编程，numpy，pandas以及面向对象编程思想等",
+      "skill_desc": "",
+      "skill_level": 95,
+      "dataIndex": 0
+    },
+    {
+      "skill_name": "熟悉Django后端接口开发，rabbitmq中间件，redis，mysql等",
+      "skill_level": 85,
+      "dataIndex": 1,
+      "skill_desc": "有ts和vue3开发经验，也参与过需要复杂逻辑的js的编辑器项目(部分例子:https://github.com/TerryYaha/mapedit-myself)"
+    },
+    {
+      "skill_name": "Vue/Vue全家桶",
+      "skill_desc": "参与过Vue上线/开源项目，有组件化开发经验和模块化经验",
+      "skill_level": 95,
+      "dataIndex": 2
+    },
+    {
+      "skill_name": "Uniapp/vant",
+      "skill_desc": "参与过Uniapp多端适配兼容开发",
+      "skill_level": 85,
+      "dataIndex": 3
+    },
+    {
+      "skill_name": "React ",
+      "skill_desc": "组件封装和基本项目实践",
+      "skill_level": 80,
+      "dataIndex": 4
+    },
+    {
+      "skill_name": "Python/django、flask、Scrapy",
+      "skill_level": 85,
+      "skill_desc": "一定的实践经验，熟悉管理后台开发，也熟悉爬虫，数据分析等。",
+      "dataIndex": 5
+    }
+  ],
+  "projectList": [
+    {
+      "project_name": "vland云现场PC端、编辑器",
+      "project_role": "核心开发者",
+      "project_time": "2022.01 - 2022.02",
+      "project_desc": "此项目是公司主打产品，用户通过云现场链接进入云现场，或者用户通过首页进入云现场， 在进入云现场之前，需要有管理员创建并编辑好云现场，设置人员权限，白名单，地图密码等，用户进入云 现场后，用户可以活动，聊天，音视频，碰撞，等进行社交。",
+      "project_content": "1.参与需求迭代开发（敏捷），封装常用组件以及常用函数，规范文档，统一维护 \n2.重构原代码设计，修改组件之间结构达到模块化管理效果,并替换 Ts+Vue3.0 开发，同时推进 eslint。 commitlint 规范.\n3.编辑器：采用ES6模块化开发，使用fabric画布（基于canvas工具的绘图框架）绘制图形工具构建云现场\n4.编辑器参与了文件上传，物品，特效，地板等列表展示，可交互物属性设置，内存测算，撤销，重做等功能，也做了相关优化，比如模块化解耦;视图更少的渲染;分批处理计算，利用requestIdleCallback回调做空闲执行等.\n5.进行单页面加载，webpack打包的优化，通过添加缓存加载器，优化文件匹配路径等方法，提升项目运行速度（2min -> 30s）和效率；",
+      "dataIndex": 0
+    },
+    {
+      "project_name": "vland云现场移动端（uni-app）",
+      "project_role": "核心开发者",
+      "project_time": "2022.05 - 至今",
+      "project_desc": "分微信登陆和手机号登陆，登陆后选择对应的云现场进入场景， 进入场景前有相关引到和音视频权限的授权，用户授权完毕后进入元宇宙场景进行相应社交活动。",
+      "project_content": "1.项目主要使用Uniapp+ES6+Sass+Vant+Vite等相关技术栈开发，且多端兼容适应多个平台。\n2.移动端主要负责人，参与了首页，登录，聊天，云现场音视频订阅等模块的开发，基于Vant移动端组件库封装了基础、业务组件，提升后续需求开发效率\n3.项目链接移动端打开供参考：https://beta-m.vland.live/app",
+      "dataIndex": 0
+    },
+    {
+      "project_name": "基于 React 共享单车管理后台",
+      "project_role": "独立开发",
+      "project_time": "2022.04 - 至今",
+      "project_desc": "系城市所有共享单车管理平台，管理人员在后台可充值用户钱包，用户使用车辆记录，对车可以 上锁，定位，查看使用状况，次数，等等，方便用户管理员一站式使用和管理共享单车服务",
+      "project_content": "1.对基础组件进行封装和模块化管理  \n2.使用 BrowserRouter 对路由集中管理，实现手动跳转，和传参等操作  \n3.使用高阶函数，纯函数，PureComponent（组件优化）开发  \n4.使用 MySQL 对数据库进行设计和开发，django 采用 MVC 设计模式，使用 Mock 对数据进行模拟",
+      "dataIndex": 2
+    },
+    {
+      "project_name": "Apache DolphinScheduler 开源(用户资源授权更换穿梭框基于 vue，其他)",
+      "project_role": "代码贡献者",
+      "project_time": "2021.07 - 2021.09 / 2022.02 - 2022.03",
+      "project_desc": "此项目为 Apache Dolphinscheduler(DS)海豚调度开源活动（summmer star）。此项目是用户资源授权页一功能模 块，需要将原下拉框资源选择修改穿梭框树形结构数据选择资源。",
+      "project_content": "1.需熟悉项目前人组件，需基于前人开发组件修改适应业务，\n2.对elementui进行封装适应任务调度业务需求，提pr进行code review",
+      "dataIndex": 1
+    }
+  ],
+  "workList": [],
+  "aboutme": {
+    "aboutme_desc": "🌱 Things have a way of working themselves out. \n😈 能力项：和团队协作的沟通能力，执行能力，工作同步和总结能力，自驱型前端工程师。毕业之际在一家咨询外企任职一年Python前后端开发，任职期间，为客户公司提供数据集成和管理的服务。后不甘于业务技术受限，辗转至定义为元宇宙类型公司至今。与此同时，期间也积极参加了 Apache DolphinScheduler（Apache大数据顶流任务调度框架）开源社区的代码commit。\n    "
+  },
+  "theme": { "color": "#2f5785", "tagColor": "#8bc34a" }
+}
