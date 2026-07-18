@@ -1,0 +1,139 @@
+{
+  "titleNameMap": {
+    "educationList": "教育背景",
+    "workExpList": "工作经历",
+    "projectList": "项目经历",
+    "skillList": "个人技能",
+    "awardList": "更多信息",
+    "workList": "个人作品",
+    "aboutme": "自我介绍"
+  },
+  "avatar": {
+    "src": "https://i.postimg.cc/XJKKBnLy/people.jpg",
+    "hidden": true
+  },
+  "profile": {
+    "name": "陶云亮",
+    "email": "yunltao@outlook.com",
+    "mobile": "17750258532",
+    "github": "",
+    "zhihu": "",
+    "age": "26",
+    "workPlace": "不限/远程（当前上海）",
+    "workExpYear": "四-五年",
+    "positionTitle": "全栈工程师（主前端，辅后端Node/Python/Go）"
+  },
+  "educationList": [
+    {
+      "edu_time": ["2017.09.01", "2021.06.30"],
+      "school": "福州大学 至诚学院",
+      "major": "计算机科学与技术(主)",
+      "minor": "金融工程(辅)",
+      "academic_degree": "本科"
+    }
+  ],
+  "awardList": [
+    { "award_info": "英语 CET6", "award_time": "2018", "dataIndex": 0 },
+    { "award_info": "证券从业资格证", "award_time": "2020.06", "dataIndex": 1 }
+  ],
+  "workExpList": [
+    {
+      "work_time": ["2023.03", "2025.10"],
+      "company_name": "FinPoints（新加坡Doo Group金融科技集团R&D，股票/期货/Web3）",
+      "department_name": "Web3 Developer",
+      "work_desc": "1. 主导Web3 DeFi平台\"跨链质押交互层、合规风控可视化层、链上数据同步层\"开发，采用React 18+TypeScript 5.0+Next.js 13+LayerZero技术栈\n2. 负责ToC端CRM Client/Ib/H5项目(开户交易平台)需求业务开发(NodeJs/React/Next)，主导性能优化与技术改造\n3. 参与积分商城项目开发和C端项目重构版本升级，梳理技术文档，参与技术评审，优化工作协作流程",
+      "dataIndex": 0
+    },
+    {
+      "work_time": ["2022.01", "2023.02"],
+      "company_name": "上海唯偲科技有限公司（元宇宙创业公司，线上虚拟空间）",
+      "department_name": "前端工程师",
+      "work_desc": "1. 参与Vland云现场PC端、移动端及编辑器全栈开发，主导前端重构和技术升级\n2. 基础、业务组件的设计，担任需求小组长，协调测试和产品推进需求\n3. 参与后端开发(Go/Python)，完成聊天、音视频、付费等核心模块",
+      "dataIndex": 1
+    },
+    {
+      "work_time": ["2020.12", "2022.01"],
+      "company_name": "Merkle美库尔上海（500强咨询行业公司Dentsu旗下）",
+      "department_name": "Tech Analytics",
+      "work_desc": "1. 根据需求完成前端（Vue2）Analytics Platform项目，封装业务组件\n2. 使用Django开发后台管理系统，爬取抖音、虎扑等平台数据\n3. 对Azkaban调度器进行改造，使用Echarts等库进行数据可视化展示",
+      "dataIndex": 2
+    }
+  ],
+  "skillList": [
+    {
+      "skill_name": "HTML，CSS/SCSS，TypeScript / JavaScript",
+      "skill_desc": "熟练掌握HTML/HTML5，CSS/SCSS，TypeScript/JavaScript，熟悉ES6语法及新特性，具有Web3 DApp开发经验",
+      "skill_level": 95,
+      "dataIndex": 0
+    },
+    {
+      "skill_name": "React/Vue2，3/Uniapp等前端框架，Vant/Element等UI框架和二开",
+      "skill_level": 95,
+      "dataIndex": 1,
+      "skill_desc": "精通React、Vue2/3前端框架，熟悉Web3生态(Viem/wagmi)，具有DeFi项目从0到1开发和技术选型经验"
+    },
+    {
+      "skill_name": "NodeJs(Koa/Express),NextJs等",
+      "skill_desc": "熟悉NodeJs服务开发，编写中间件(日志、加密、异常处理等)，精通Next.js SSR/SSG，具有高并发系统开发经验",
+      "skill_level": 95,
+      "dataIndex": 2
+    },
+    {
+      "skill_name": "前端工程化，Webpack/Vite等打包工具，微前端",
+      "skill_level": 95,
+      "dataIndex": 3,
+      "skill_desc": "精通Webpack、Vite等打包工具及性能优化，了解Monorepo单体仓库管理，具有CI/CD和Docker容器化经验"
+    },
+    {
+      "skill_name": "Python(django、flask、Scrapy), Golang(Gin Web)等后端开发",
+      "skill_desc": "熟悉Python后端开发框架，会使用Golang开发。具有量化因子挖掘、Web3智能合约联调等经验",
+      "skill_level": 90,
+      "dataIndex": 4
+    },
+    {
+      "skill_name": "Mysql，Redis，MongoDB等数据库，熟悉Elasticsearch等搜索引擎",
+      "skill_level": 85,
+      "skill_desc": "熟悉Mysql、Redis、MongoDB等数据库，了解Docker、K8s等容器运维技术，具有链上数据同步和缓存优化经验",
+      "dataIndex": 5
+    }
+  ],
+  "projectList": [
+    {
+      "project_name": "Finpoints 合规去中心化DeFi质押借贷平台",
+      "project_role": "Web3 Developer",
+      "project_time": "2024.03 - 2025.09",
+      "project_desc": "构建\"低门槛跨链操作+强合规风控+高性能承载\"的去中心化质押借贷平台，适配Ethereum、Avalanche双链，符合MAS数字支付代币监管要求，支撑加密资产质押借贷",
+      "project_content": "1. 双链跨链质押流程优化：集成LayerZero协议开发一键跨链质押，操作步骤减少50%，跨链成功率从70%提升至95%；对接Chainlink Price Feeds V2实现实时质押率计算(≤50ms)；开发清算预警交互系统\n2. MAS合规风控可视化：基于wagmi开发资产追溯看板，支持PDF合规报告导出；实现风险披露弹窗和机构专属风控面板，满足MAS资产可追溯要求\n3. 高并发性能优化：通过Next.js 13 SSR+边缘节点预加载优化首屏FCP至400ms；IndexedDB弱网缓存策略提升弱网操作成功率至82%；React.memo+Redis缓存实现峰值TPS 320+",
+      "dataIndex": 0
+    },
+    {
+      "project_name": "Doo Prime Client/Ib/H5端开户交易平台",
+      "project_role": "NodeJs全栈开发",
+      "project_time": "2023.05 - 至今",
+      "project_desc": "基于云端网络的交易系统，提供网页版和移动端，支持MT4/MT5交易平台，具有高度通用性的多元资产交易平台",
+      "project_content": "1. 主导项目打包优化，通过Nginx动静分离将500并发下加载时间从6s优化至2s\n2. 实现埋点监控、报错日志封装、隐私数据加密，交易转账核心接口使用IoRedis安全校验\n3. 基于Antd封装常用组件，完成JWT token接入、KYC模块对接等核心需求开发\n4. 优化Docker CI/CD流程，主导接入Sentry异常监控系统\n5. 参与资金模块DDD重构，使用Next/React实现SSR重构和渲染优化",
+      "dataIndex": 1
+    },
+    {
+      "project_name": "Vland云现场全平台开发(PC端+移动端+编辑器)",
+      "project_role": "核心全栈开发者",
+      "project_time": "2022.01 - 2023.02", 
+      "project_desc": "元宇宙虚拟社交平台，用户通过云现场进行活动、聊天、音视频、碰撞等社交互动，包含PC端、移动端和场景编辑器",
+      "project_content": "1. PC端重构：主导Vue2 to Vue3+TypeScript重构，推进Eslint、Commitlint规范，优化Webpack打包(2min→30s)\n2. 编辑器开发：基于Fabric画布构建云现场，实现文件上传、物品特效、撤销重做等核心功能，通过模块化解耦和分批计算优化性能\n3. 移动端开发：使用Uniapp+Vant多端兼容开发，完成登录、聊天、音视频订阅等模块，基于Gin开发付费、换装、敏感词检测等后端API\n4. 技术架构：封装基础业务组件库，统一技术文档规范，提升团队开发效率",
+      "dataIndex": 2
+    },
+    {
+      "project_name": "Apache DolphinScheduler 开源贡献",
+      "project_role": "代码贡献者", 
+      "project_time": "2021.07 - 2022.03",
+      "project_desc": "参与Apache海豚调度开源项目，完成用户资源授权页功能模块改造，将原下拉框资源选择改为穿梭框树形结构",
+      "project_content": "1. 基于现有组件架构进行业务适配改造，封装ElementUI组件满足调度业务需求\n2. 提交PR并进行Code Review，遵循开源项目开发流程和规范",
+      "dataIndex": 3
+    }
+  ],
+  "workList": [],
+  "aboutme": {
+    "aboutme_desc": "🌱 Things have a way of working themselves out. \n😈 能力项：我是一名具有良好团队合作沟通能力、执行力、工作同步和总结能力、以及自我驱动的全栈工程师。在Web3 DeFi、金融科技等领域有着丰富的实战经验，熟悉React/Vue全栈开发，具有从0到1构建高并发系统的能力。业余时间持续探索新技术，在量化金融、区块链等方向有深入实践。\n    "
+  },
+  "theme": { "color": "#2f5785", "tagColor": "#8bc34a" }
+}

@@ -18,10 +18,10 @@
     "mobile": "17750258532",
     "github": "",
     "zhihu": "",
-    "age": "26",
+    "age": "27",
     "workPlace": "不限/远程（当前上海）",
-    "workExpYear": "四-五年",
-    "positionTitle": "全栈工程师（主前端，辅后端Node/Python/Go）"
+    "workExpYear": "五年",
+    "positionTitle": "全栈/agent/前端工程师"
   },
   "educationList": [
     {
@@ -38,10 +38,10 @@
   ],
   "workExpList": [
     {
-      "work_time": ["2023.03", "2025.10"],
+      "work_time": ["2023.03", "2026.07"],
       "company_name": "FinPoints（新加坡Doo Group金融科技集团R&D，股票/期货）",
       "department_name": "Web Developer",
-      "work_desc": "1. 主要负责ToC端CRM Client/Ib/H5项目(开户交易平台)需求业务开发(NodeJs/React/Next)，部分技术改造工作。\n2. 参与积分商城项目开发和C端项目重构版本升级。\n3. 梳理技术文档，参与技术评审，主动推进项目进程，优化工作协作流程。",
+      "work_desc": "1. 主要负责ToC端CRM Client/Ib/H5项目(开户交易平台)需求业务开发(NodeJs/React/Next)，部分技术改造工作。\n2. 搭建"AI 重构流水线",参与积分商城项目开发和C端项目重构版本升级。\n3. 梳理技术文档，参与技术评审，主动推进项目进程，优化工作协作流程。",
       "dataIndex": 0
     },
     {
@@ -103,7 +103,7 @@
       "project_role": "NodeJs全栈开发",
       "project_time": "2023.05 - 至今",
       "project_desc": "基于云端网络的交易系统，提供网页版和移动端，可以随时随地在任意的设备上开始交易，及时把握投资机遇。支持全球最热门的交易平台 MT4 ，以及新一代的多元资产交易平台 MT5，具有高度通用性。",
-      "project_content": "1.对Client/IB项目进行打包优化，首屏加载速度优化。配置Nginx对静态文件做动静分离，由原来500并发+5pods加载时间6s降至2s。\n2.对项目进行埋点，报错日志封装，隐私数据加密，交易转账核心接口使用IoRedis安全校验。\n3.对常用组件比如表单、输入框基于Antd封装改造。\n4.需求开发，比如接入JWT token、最优域名节点更新、出入金额计算，kyc模块对接等等。\n5.优化项目Docker CI/CD，便捷持续部署项目。主导接入Sentry对项目异常进行监控。\n6.参与部分模块重构工作，比如负责资金DDD重构。\n7.项目NodeJs为全栈，项目采用微服务架构，接入Nacos。中间件接口安全加密校验、日志等，参与部分模块后端开发。\n8.共同实施计划开发方案，使用Next/React对旧项目前端SSR进行重构（资金）和优化渲染加载",
+      "project_content": "1.对Client/IB项目进行打包优化，首屏加载速度优化。配置Nginx对静态文件做动静分离，由原来500并发+5pods加载时间6s降至2s。\n2.对项目进行埋点，报错日志封装，隐私数据加密，交易转账核心接口使用IoRedis安全校验。\n3.对常用组件比如表单、输入框基于Antd封装改造。\n4.需求开发，比如接入JWT token、最优域名节点更新、出入金额计算，kyc模块对接等等。\n5.优化项目Docker CI/CD，便捷持续部署项目。主导接入Sentry对项目异常进行监控。\n6.参与部分模块重构工作，比如负责资金DDD重构。\n7.项目NodeJs为全栈，项目采用微服务架构，接入Nacos。中间件接口安全加密校验、日志等，参与部分模块后端开发。\n8.对旧交易平台重构，搭建ai重构流水线，将遗留模块输入Claude，生成React骨架，Zod类型定义及测试用例，使用AI对8万行遗留代码进行语义扫描，自动归类可提取业务，重构周期从9个月降低到5个月",
       "dataIndex": 2
     },
     {
